@@ -10,6 +10,8 @@
 <meta property="og:description" content="Screen time, delivery orders, sleep debt, goals missed — printed as one receipt you can't argue with.">
 <meta property="og:url" content="https://life-receipt.com/">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://life-receipt.com/assets/receipt.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0B0B0D">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +26,7 @@
     <nav>
       <a href="#itemized">What it does</a>
       <a href="#refunds">Refunds</a>
+      <a href="#get">Get the app</a>
       <a class="keep" href="/support">Support</a>
     </nav>
   </div>
@@ -39,39 +42,24 @@
       <p class="lede">Every day costs you something. LifeReceipt rings it up — hours on TikTok, delivery orders, sleep you didn't get, goals you skipped — and prints the total on one receipt.</p>
       <p>Then it gives you a way to earn some of it back.</p>
       <div class="cta-row">
-        <a class="btn btn-stamp" href="#itemized">How it works</a>
-        <a class="btn" href="#refunds">The refunds ledger</a>
+        <a class="btn btn-stamp" href="https://apps.apple.com/us/app/lifereceipt-cut-screen-time/id6793711242" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" style="flex:none"><path d="M17.05 12.54c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.77 2.29-1.61 2.79-.41 6.92 1.15 9.18.76 1.11 1.67 2.35 2.86 2.3 1.15-.05 1.58-.74 2.97-.74s1.78.74 3 .72c1.24-.02 2.02-1.12 2.78-2.24.88-1.28 1.24-2.52 1.26-2.58-.03-.01-2.41-.92-2.4-3.71zM14.8 5.6c.63-.77 1.06-1.83.94-2.9-.91.04-2.02.61-2.67 1.37-.58.68-1.09 1.77-.96 2.81 1.02.08 2.06-.52 2.69-1.28z"/></svg><span>Download on the App&nbsp;Store</span></a>
+        <a class="btn" href="#itemized">How it works</a>
       </div>
       <p class="fineprint">Requires iPhone. Subscription required.</p>
     </div>
 
-    <div class="receipt print" aria-label="Example daily receipt">
-      <div class="r-head" style="animation-delay:.05s">LifeReceipt</div>
-      <div class="r-sub" style="animation-delay:.12s">Store #001 · Register 04</div>
-      <div class="r-sub" style="animation-delay:.18s">Tue 11:59 PM</div>
-      <div class="r-rule" style="animation-delay:.24s"></div>
-      <div class="r-line" style="animation-delay:.32s"><span>TIKTOK 2:45</span><span>$41.25</span></div>
-      <div class="r-line" style="animation-delay:.42s"><span>INSTAGRAM 1:15</span><span>$18.75</span></div>
-      <div class="r-line" style="animation-delay:.52s"><span>YOUTUBE 0:45</span><span>$11.25</span></div>
-      <div class="r-line" style="animation-delay:.62s"><span>DOORDASH ×2</span><span>$34.22</span></div>
-      <div class="r-line" style="animation-delay:.72s"><span>SLEEP DEBT</span><span>1:30</span></div>
-      <div class="r-line" style="animation-delay:.82s"><span>GYM — NOT VISITED</span><span>—</span></div>
-      <div class="r-rule" style="animation-delay:.9s"></div>
-      <div class="r-line" style="animation-delay:.98s"><span>YOUR HOURLY RATE</span><span>$15.00</span></div>
-      <div class="r-line r-total" style="animation-delay:1.08s"><span>TOTAL</span><span>$105.47</span></div>
-      <div class="r-line r-total" style="animation-delay:1.16s"><span></span><span>4h 45m</span></div>
-      <div class="r-stamp" style="animation-delay:1.3s">Refund available tomorrow</div>
-      <div class="r-line" style="animation-delay:1.4s;font-size:11px;color:var(--ink-soft)"><span>AUTH CODE</span><span>#REGRET</span></div>
-      <div class="r-thanks" style="animation-delay:1.55s">Thank you for spending<br>your one life with us!</div>
-      <div class="r-foot" style="animation-delay:1.7s">Returns accepted: never · Time is final sale</div>
-    </div>
+    <figure class="shot">
+      <img src="/assets/receipt.png" width="376" height="776"
+           alt="A LifeReceipt daily receipt: Instagram 1h 00m, TikTok 45m, sleep debt 1h 00m, total $140.00 plus 2h 45m, with a locked refund available tomorrow."
+           fetchpriority="high" decoding="async">
+    </figure>
   </div>
 </section>
 
 <section id="itemized">
   <div class="wrap">
     <p class="eyebrow on-dark">What it does</p>
-    <h2>Four things nobody adds up</h2>
+    <h2>The things nobody adds up</h2>
     <p class="lede">A dashboard shows you a chart and you forget it. A receipt shows you a total and you don't.</p>
     <div class="cols">
       <div class="card">
@@ -90,11 +78,6 @@
         <p>Read from Apple Health, with your permission. The hour you lost to one more episode shows up on the same bill as everything else.</p>
       </div>
       <div class="card">
-        <span class="tag">Line 04</span>
-        <h3>Goals you skipped</h3>
-        <p>Say what you're working toward. The gym you didn't go to and the pages you didn't read print in the same deadpan type as the rest of the charges.</p>
-      </div>
-      <div class="card">
         <span class="tag">Total</span>
         <h3>One number, once a day</h3>
         <p>The receipt prints line by line and the total lands with a thud. It's an image you can save and send, because the whole point is that it's hard to look away from.</p>
@@ -105,6 +88,16 @@
         <p>Yesterday closes out at midnight. There's a new one every morning, and a trend line showing whether the totals are going up or down.</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="get" class="buy">
+  <div class="wrap narrow">
+    <p class="eyebrow on-dark">Get LifeReceipt</p>
+    <h2>Ring up today's total</h2>
+    <p class="lede" style="margin:0 auto 30px">Available now on the App Store. Your first receipt takes about a minute.</p>
+    <a class="btn btn-stamp btn-xl" href="https://apps.apple.com/us/app/lifereceipt-cut-screen-time/id6793711242" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" style="flex:none"><path d="M17.05 12.54c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.77 2.29-1.61 2.79-.41 6.92 1.15 9.18.76 1.11 1.67 2.35 2.86 2.3 1.15-.05 1.58-.74 2.97-.74s1.78.74 3 .72c1.24-.02 2.02-1.12 2.78-2.24.88-1.28 1.24-2.52 1.26-2.58-.03-.01-2.41-.92-2.4-3.71zM14.8 5.6c.63-.77 1.06-1.83.94-2.9-.91.04-2.02.61-2.67 1.37-.58.68-1.09 1.77-.96 2.81 1.02.08 2.06-.52 2.69-1.28z"/></svg><span>Download on the App&nbsp;Store</span></a>
+    <p class="fineprint" style="margin-top:20px">iPhone · Auto-renewing subscription billed through the App Store</p>
   </div>
 </section>
 
@@ -132,8 +125,8 @@
     <p class="thanks" style="font-size:clamp(22px,3.4vw,32px);margin-bottom:22px">Thank you for spending your one life with us!</p>
     <p>Questions, refunds, account deletion, or anything that's broken — a person reads every message.</p>
     <div class="cta-row" style="justify-content:center">
-      <a class="btn btn-stamp" href="/support">Get support</a>
-      <a class="btn" href="mailto:info@life-receipt.com">Press &amp; partnerships</a>
+      <a class="btn btn-stamp" href="https://apps.apple.com/us/app/lifereceipt-cut-screen-time/id6793711242" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" style="flex:none"><path d="M17.05 12.54c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.78-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3.01-.79-1.55.02-2.98.9-3.77 2.29-1.61 2.79-.41 6.92 1.15 9.18.76 1.11 1.67 2.35 2.86 2.3 1.15-.05 1.58-.74 2.97-.74s1.78.74 3 .72c1.24-.02 2.02-1.12 2.78-2.24.88-1.28 1.24-2.52 1.26-2.58-.03-.01-2.41-.92-2.4-3.71zM14.8 5.6c.63-.77 1.06-1.83.94-2.9-.91.04-2.02.61-2.67 1.37-.58.68-1.09 1.77-.96 2.81 1.02.08 2.06-.52 2.69-1.28z"/></svg><span>Download on the App&nbsp;Store</span></a>
+      <a class="btn" href="/support">Get support</a>
     </div>
     <p class="fineprint" style="margin-top:26px">LifeReceipt is an auto-renewing subscription billed through the App Store. Pricing is shown in the app before you buy. See the <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a>.</p>
   </div>
@@ -145,7 +138,7 @@
   <div class="wrap foot-grid">
     <div>
       <a class="wordmark" href="/" style="margin-bottom:12px">LifeReceipt</a>
-      <p class="legal">© 2026 Life Receipt, LLC<br>A Mississippi limited liability company</p>
+      <p class="legal">© 2026 Paper Street Holdings LLC<br>A Mississippi limited liability company</p>
     </div>
     <div>
       <a href="/support">Support</a>

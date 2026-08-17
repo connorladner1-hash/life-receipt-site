@@ -1,6 +1,6 @@
 # life-receipt.com
 
-Static marketing + support site for LifeReceipt (Life Receipt, LLC).
+Static marketing + support site for LifeReceipt (Paper Street Holdings LLC).
 No build step. Plain HTML/CSS, deployed on Vercel.
 
 ## Pages
