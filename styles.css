@@ -132,6 +132,7 @@ p.lede { font-size: 17px; color: var(--paper); max-width: 46ch; }
 
 /* real app screenshot */
 .shot { margin: 0; justify-self: center; }
+.shot picture { display: block; }
 .shot img {
   display: block; width: 100%; max-width: 340px; height: auto;
   border-radius: 14px;
@@ -249,7 +250,8 @@ footer a:hover, footer a:focus-visible { color: var(--paper); }
 
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; gap: 44px; }
-  .shot img { max-width: 300px; margin: 0 auto; }
+  .shot picture { display: block; }
+.shot img { max-width: 300px; margin: 0 auto; }
   .cols { grid-template-columns: 1fr; gap: 24px; }
   .split { grid-template-columns: 1fr; gap: 30px; }
   .prices { grid-template-columns: 1fr; }
